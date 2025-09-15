@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Method</title>
+</head>
+<body>
+    <p id="output"></p>
+    <script>
+        let str="this is a School and School Test All day in a Test";
+        let str2=str.indexOf("School");
+        let str3=str.indexOf("School",20);
+        
+        let str4=str.lastIndexOf("Test");
+        document.getElementById("output").innerHTML=str2+"<br>"+str3+"<br>"+str4;
+    </script>
+</body>
+</html>

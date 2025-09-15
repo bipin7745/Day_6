@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match  All Method</title>
+</head>
+<body>
+    <p id="output"></p>
+    <script>
+        let text = "Please b vn EnterName where firstName occurs name!";
+        const str=text.matchAll("Name");
+        const str1=text.match(/Name/gi);
+        document.getElementById("output").innerHTML =  Array.from(str)+"<br>"+" "+str1; 
+    </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Method</title>
+</head>
+<body>
+    <p id="output"></p>
+    <script>
+        let text="this is a School and School Test All day in a Test";
+        let text2=text.search("School");
+        let text3=text.search(/School/);
+        document.getElementById("output").innerHTML=text2+"<br>"+text3;
+    </script>
+</body>
+</html>

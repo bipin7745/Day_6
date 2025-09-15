@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Strings</h1>
+<h2>The isWellFormed() Method</h2>
+
+<p>isWellFormed() returns true if a string is well formed.</p>
+
+<p id="print"></p>
+
+<script>
+let text = "Hello world!";
+let text2 ="Hello \uD800/d#99696674"
+let result = text.isWellFormed();
+let result2=text2.isWellFormed();
+document.getElementById("print").innerHTML = result +'<br>'+result2;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript String Slice</title>
+</head>
+<body>
+    <p id="output"></p>
+    <script>
+        let fruit="Mengo,Banana,Apple,Orange,Lemon";
+        let fruit1=fruit.slice(0,5);
+        let fruit2=fruit.slice(6,12);
+        let fruit3=fruit.slice(13,18);
+        let fruit4=fruit.slice(19,25);
+        let fruit5=fruit.slice(-5,-9);
+        document.getElementById("output").innerHTML=fruit+"<br>"+fruit1+"<br>"+fruit2+"<br>"+fruit3+"<br>"+fruit4+"<br>"+fruit5;
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+Converting to Upper and Lower Case</title>
+</head>
+<body>
+     <p>
+Converting to String Uppercase and LowerCase</p>
+       
+    <input type="text" id="String"  placeholder="Enter String !">
+   <br>
+   <br>
+<button onclick="upper()">Upper</button>&nbsp;&nbsp;&nbsp;&nbsp;
+<button onclick="lower()">Lower</button>
+    <p id="output"></p>
+    
+    <script>
+        function upper()
+        {
+            let str=document.getElementById("String").value;
+            document.getElementById("output").innerHTML =
+            str.toUpperCase();
+        }
+        function lower()
+        {
+            let str=document.getElementById("String").value;
+            document.getElementById("output").innerHTML =
+            str.toLowerCase();
+        }
+    </script>
+</body>
+</html>

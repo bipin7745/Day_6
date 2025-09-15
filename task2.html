@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Characters</title>
+</head>
+<body>
+    <p id="output"></p>
+    <script>
+        let text="Hello World!";
+        let text2=text.charCodeAt(5);
+        let text3=text.codePointAt(5);
+        let text4=text.at(3)
+        document.getElementById("output").innerHTML=text.charAt(7)+"<br>"+text2+"<br>"+text3+"<br>"+text4;
+    </script>
+</body>
+</html>
